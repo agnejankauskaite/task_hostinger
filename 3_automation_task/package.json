@@ -1,11 +1,14 @@
 {
   "name": "3_automation_task",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "description": "Test automation task for QA Engineer position at Hostinger",
+  "scripts": {
+    "chrome": "npx playwright test tests/ --project=chromium",
+    "firefox": "npx playwright test tests/ --project=firefox",
+    "webkit": "npx playwright test tests/ --project=webkit"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Agne Jankauskaite",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.0",
