@@ -42,3 +42,16 @@ A blank page is shown with no error message (see attached image `bug2.png`). 422
 }
 ```
 
+## Bug 3: Numbers and symbols are allowed for user's name and surname change with API call
+
+### Test data:
+{first_name: "Testas123!", last_name: "Testauskas123!"}
+
+### Steps to reproduce:
+Send an API PATCH call for https://hpanel.hostinger.com/api/auth/api/external/v1/profile/data with name and surname that contain numbers and symbols (see example under test data)
+
+### Expected result:
+User is not allowed to send incorrect data and an error is shown.
+
+### Actual result:
+User can successfully add special characters and numbers to user's name and surname (see image `bug3.png`).
