@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "2e64e166-4910-4356-a1f7-c16bb111b32d",
+		"name": "Task for QA Engineer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40013027"
+	},
+	"item": [
+		{
+			"name": "Hostinger API task",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2hwYW5lbC5ob3N0aW5nZXIuY29tL2FwaS9leHRlcm5hbC92MS9hdXRoL3Bhc3N3b3JkL3VwZGF0ZSIsImlhdCI6MTczMjYyMDQzNSwibmJmIjoxNzMyNjIwNDM1LCJleHAiOjE3MzI2MjQwMzUsImp0aSI6ImYzMjAwZjI5LTU2ODktNDBjNC1hMTc0LWE5NjQzMThmNjUyYyIsImlzZiI6ZmFsc2UsImFpZCI6bnVsbCwiYWNjZXNzIjpudWxsLCJtYW5hZ2VyX29mIjpudWxsLCJyb2xlIjoiY2xpZW50IiwiaXNfY2hhcmdlYmVlIjp0cnVlLCJ2ZXJzaW9uIjoiMS4wLjAiLCJpc19zc28iOnRydWUsInRhcmdldF9hcHBsaWNhdGlvbiI6ImhwYW5lbCIsInN1YiI6IjM4NTYzMTk2IiwicmlkIjo1LCJjb21wYW55X2lkIjoiaG9zdGluZ2VyIiwiYnJhbmRfZG9tYWluIjoiaG9zdGluZ2VyLmNvbSIsInByb2ZpbGVfZGV0YWlscyI6eyJlbWFpbCI6ImhlMDU5TkhMYllTREJzRDVIblNNUU1zUndLWnNDQ2gyYThnZ3U1OEJ5S2FtalFldTZrYWxBWUFhMHE1U2tWQXVaZGRFQ0JJNVUrYnJnN2dYbUNiWmhiNm9xSWdCeWhjTkFiQUUrbTlyVnZQcGhWWnZ2ZnE2TzUxbGNzdURMZXY1UDIxRDVpMTY4cTlCY2ViRkRmUU1JY0lhOUJKMU1jaE8wN28yeGZLYm5yeUpycVltNHZBR1UyS2ZNbWxJTGhkZmtoSEtyUXN1OCtoSXkrMytTSlBlakplZkJ6L3AxcVp3UEVMeW9MNW8wT042enUwemxCbW1HOHB4KzNVdGUyY0U0NC9IaE9XUHhtYWNCc3JqcmFJMkg1MFhzMjR5TWJ0bERRRXlNTmlnV2ZNRU52Nm8rczhHdUp1blcvYVI5V2FSTDNOTUtxTG5IY2cyOTlKYWtLQ2kzb3IxdGFWY2xkalFWdDV3VU9iczMyOEhkaFRJU2F0aHUvZWsxWjNXN3pyb1dLNHl5N0VWb0V6TTA5VVBaMklWWnY0OEdHNytJOXVxS0tOdWVCeng5NDVEb2NhRk1Ya1ZCUWhhMktIVTVTRnRZTGIvZnpPeVRvZ0c5VU5DdGxSYm5BMlNvclF6TGdJNjdncmsrdlQ1Vm1LOCs3blU0OG1mUzE2alBlbmx3Ulh4UnJkN2JiN0h4Qm9WcEt3ZGp0dHlSU1VQT05Edk12T1RlNGlhdjNrK0owckxRUys1NzBIaXVMZGNoalhYSkRzOW8wVE9KTUJaRUFXdDA1ODU4RDdkZlhqQXg1dGxyRUxGK0JHTGtKUzlmc0NaUnR5RzU0UTlEck1uWS9TR29KcEt2MWxuUzNydzhMMjBaSUozZjZVdEpYeUl2aWFNcjJBVkhVbUVRektpa0pFPSIsImZpcnN0X25hbWUiOiJtOTNaSFZQWGdhOGtUYWcyMm1uTldCZ3U1aDhYOFNCQjZ2dDZvYmZmWHhvTFVsR0Roc1prcE1tYzNLR2RjTnozaVhpWVczdlpRY2k1SGkvaHp2ekNuM3c5STBpMThPelo2cGVtbGxRK2lSWkxHQTJsYS8ya2pzejBoeFgzTklTU2g4T2g3UnhxR20vTkVzQ3d4MmZFczZjTytZeTV5QTU1RnpvaHFjeUNQWnB1QkdtRWZaVWhUdVo2Qkk2eUlQV1g5R1d5ZW8rYTNQQW9INDJqMzVuMS9FZUJzRDFWWEtab3JzWEJ6YjYzdVZWQXg1THAvczBMYzlzZkZ4cEcrbVdFUm9HMVoxMHNXVzRidTJkS2hxUGd6a2U5K3o3QmpkUzZDaTlURy83R0k2UkxKd3Q3UENQWk9jWm5mbTVaaEQxSnByS1Bqa1RsUXVaM3pwMnZYUG4wRm1QSVhiS1lrd3F5dFlOeStZZVlEa2lyQmZEZzhQeHlNQUhFbmlHek1KM3krWGFZM2tFTjVnbHI5TkVaRGRVd0xsT2lQUm1YU1RYZlBWdE43c1hjUThRU3g1MGsvVWNQMWFLcHE4UnBPVFpIOXMvTSs1Nld3bG9FWU55MUV4QTdzSlNjNTVnV29WU3paTTUxVCtXSUJDYmpnRGVWWXZvdXI3KzZ0bTRxbldlSSsxYmJKMm1OcTY0aEwrZlRVZmRMbWhPNFpYSnptNVJJNFpOY1M4OGlnNVJOUUp4ZkZlSWJPbVd1bWN2eHNQTWxzUjErcU9McG0wZHh0L0JjT1lYWkxnL0J2OS9XTVU2eng1Q3kxSE5WOFZQT0RVRy9ZWE9oTHB3MGYzVjRITE1pYmZrZ1ZZZUZtVmJhZHVYY0FLL1RFN1Rwd2ZQa2JrNWdRM0swRmV4QVQzUT0iLCJpc19wcm8iOnRydWUsImNyZWF0ZWRfYXQiOiIyMDIzLTA3LTEyVDEyOjEyOjIxLjAwMDAwMFoifSwiaGFzX3Jpc2tfaW5kaWNhdG9ycyI6ZmFsc2V9.GZ8dyQnHVa_4aCz9eG72I-qXi2ozXhqa0Rt1jaMWepvrQfF6J3UlqAdinGcgYpg9zQewU2DcRhWOjWWSm8BM0n6NsDzqh-fBri2lq9zWTvsn32zyRVYhzEJDNI1rUOSqF6QS5Lkfy9Zm0XIPTmVn9V5buszdtybTGQCVSS7kxVwrKufugD_ZS8roNEAUVI50O_ToF_EDT543Mgn8hH9R0goj4T0R_Q_knwWNzlfG9J60N6MRm4jkOyNwuGTexpTHYZ-X0Gmue9JaFUi312l_uMiNgjkPVyANNX-CQBux0kAovL1euC5r-uVRh9tiFA6dlA_hVldvdEn-1_I8T60Pvl4eppA4Na7DzuWlIP-_QwZ-WVFewPebgLQeRsgv3PtmQjFqbQMLGpEamexP35qrNSUbQOmHeOsZ0AqzCQsPrhYUhvdIQuXq6pWzW1JZSNrIT-1-in-wvkl8ZxpucLeiXnNa7GwClTO7UKutg8VnIiAAkREper55EoFLMwBFk2hOUlI5Dq26GxTXOXD4PaDduX66xUN52im8sWL6rFPV6KMza_e0QVAnWCjL_kBnrwITkruzgOlwuyghvIXaOaXMhWji0KbqJ3K0OCIbr4Ok9cdgO3sYTmXJAdcYeXGgLmH2wAQdWMcyl9MpVnRO_70btWPUzCIqLTeK5BplLaDgD4Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Testas",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Testauskas",
+							"type": "text"
+						},
+						{
+							"key": "current_password",
+							"value": "Candidate!22",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://hpanel.hostinger.com/api/auth/api/external/v1/profile/data",
+					"protocol": "https",
+					"host": [
+						"hpanel",
+						"hostinger",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"api",
+						"external",
+						"v1",
+						"profile",
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
