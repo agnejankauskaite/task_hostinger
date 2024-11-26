@@ -1,13 +1,13 @@
 ## Automation task
 
 ### Prerequisites
-This test suite is written with Playwright (TypeScript). In order to run it, you'll need Playwright installed:
+This test suite is written with Playwright (TypeScript). In order to run it, you'll need Playwright installed under `3_automation_task` folder:
 ```
 npm init playwright@latest
 ```
 
 ### Running tests
-Different browsers are set up for this suite (Firefox, Chrome and Safari) in `playwright.config.ts` file. Additional scripts for chosen browsers are added in package.json. Use any of the following script to run this test suite:
+Different browsers are set up for this suite (Firefox, Chrome and Safari) in `playwright.config.ts` file. Additional scripts for chosen browsers are added in package.json. To run the test suite, use `cd .\3_automation_task\` command if you're in the root directory and then run any of the following script:
 
 | Action                                           | Script                     |
 | ------------------------------------------------ | -------------------------- |
