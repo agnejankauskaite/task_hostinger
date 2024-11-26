@@ -2,7 +2,7 @@
 
 ### Flow 1: `Login > Websites > Add website`
 
-Since one of the most important function Hostinger provides is website creation, the majority of new user would go through this flow of adding a new website. This flow would then continue to choosing a website builder, creating a new layout and choosing a domain but the core of this critical flow would be through Websites page.
+Since one of the most important function Hostinger provides is website creation, the majority of new users would go through this flow of adding a new website. This flow would then continue to choosing a website builder, creating a new layout and choosing a domain but the core of this critical flow would be through Websites page.
 
 ### Flow 2: `Login > Websites > Edit website`
 
