@@ -3,7 +3,7 @@
 ### Prerequisites
 This test suite is written with Playwright (TypeScript). In order to run it, you'll need Playwright installed:
 ```
-npx playwright installed
+npm init playwright@latest
 ```
 
 ### Running tests
